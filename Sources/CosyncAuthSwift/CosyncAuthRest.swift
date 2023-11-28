@@ -25,7 +25,7 @@
 import Foundation
 import CryptoKit
 
-@available(macOS 10.15, *)
+@available(macOS 10.14, *)
 extension String {
 
     func md5() -> String {
@@ -62,7 +62,7 @@ extension String {
 }
 
 
-@available(macOS 10.15.0, *)
+@available(macOS 10.14, *)
 public class CosyncAuthRest {
     
     // Configuration
